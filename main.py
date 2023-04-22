@@ -1,5 +1,8 @@
 
 import os
+from Singleton import llamar_Singleton
+llamar_Singleton()
+
 ## Se hace un llamado de la funcion y se incluye un archivo de texto de la reñesa de la banda
 from ArchivoTexto import realizar_Archivo_Texto
 from RegistroEstudiantes import registrarEstudiante, listadoEstudiantes,buscarEstudiante, modificarDatos, consultarHistorial
