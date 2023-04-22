@@ -31,7 +31,7 @@ class Usados_Bueno:
     def precio(self):
         return "150000 colones"
     def __str__(self):
-        return "Usado bueno"
+        return "Usado pero bueno"
 
 class Usado_Arreglar:
     """ Clase instrumentos para arreglar"""
