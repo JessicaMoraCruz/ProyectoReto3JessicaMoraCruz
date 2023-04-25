@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-
+## Se realiza interfaz para calcular promedios
 def Calcular_promedio():
     n1 = float(txtN1.get())
     n2 = float(txtN2.get())
@@ -43,5 +43,3 @@ txtN3.grid(row=3, column=1)
 
 btn_calcular.grid(row=4, column=0, columnspan=2, pady=10)
 root.mainloop()
-
-
