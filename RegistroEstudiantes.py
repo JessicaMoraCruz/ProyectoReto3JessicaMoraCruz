@@ -14,7 +14,7 @@ class RegistroEstudiantes:
             self.__initialized = True
             self.listaEstudiantes = []
             self.manejador_archivos = ArchivoTexto.ManejadorArchivosEstudiantes("nuevo_archivo.txt")
-            # Inicializar la instancia aquí
+
 
     def registrarEstudiante(self):
         print("Registro de Estudiantes\n")
