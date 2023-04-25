@@ -1,5 +1,5 @@
 import tkinter as tk
-
+## Se realiza interfaz de inventario
 class inventarioInstrumentos:
     def __init__(self, ventana):
         # Configuración de la ventana principal
@@ -42,11 +42,9 @@ class inventarioInstrumentos:
         if seleccion:
             self.lista.delete(seleccion)
 
-
 # Crear la ventana principal y el inventario
 ventana = tk.Tk()
 inventarioInstrumentos = inventarioInstrumentos(ventana)
-
 
 
 # Iniciar el bucle de eventos
