@@ -1,6 +1,5 @@
 import random
 
-
 # Se utiliza el metodo Abstract Factory para que los usuarios visualicen informacion de venta de instrumentos.
 class InformacionVentaInstrumentos:
 
